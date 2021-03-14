@@ -756,6 +756,7 @@ display: inline-block;
 /* Bedrijf Plaatjes met de Juiste teksten*/
 
 
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -840,14 +841,14 @@ display: inline-block;
 }
 
 .company-logo-bg {
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 0;
-    padding-top: 56.25%;
-  background-image: url('https://expertdojo.com/wp-content/uploads/avatars/638/5ce3220ebd552-bpfull.png');
+  display: block;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+  background-image: url(https://expertdojo.com/wp-content/uploads/avatars/638/5ce3220ebd552-bpfull.png);
 }
 
 .company-tags {
@@ -929,3 +930,5 @@ display: inline-block;
   .company-card-outer{
      flex: 0 0 50%;
   }
+}
+}
